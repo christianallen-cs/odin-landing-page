@@ -33,3 +33,25 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+.welcome-container {
+    display: flex;
+    background: #1f2937;
+}
+
+.welcome-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.welcome-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
