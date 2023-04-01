@@ -5,9 +5,12 @@ body {
     flex-direction: column;
 }
 
+.top-container {
+    background: #1f2937;
+}
+
 .header-container {
     display: flex;
-    background: #1f2937;
     justify-content: space-around;
 }
 
@@ -36,7 +39,6 @@ a {
 
 .welcome-container {
     display: flex;
-    background: #1f2937;
 }
 
 .welcome-title {
