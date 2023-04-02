@@ -150,3 +150,57 @@ a {
 .quote blockquote {
     margin: 1em;
 }
+
+.final-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 1);
+    padding: 50px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.action {
+    font-size: 36px;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.action-desc {
+    color: #f9faf8;
+    margin-top: 0;
+}
+
+.rightside {
+    display: flex;
+    align-content: center;
+}
+
+.signup2 {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    margin-left: 150px;
+}
