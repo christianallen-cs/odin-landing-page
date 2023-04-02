@@ -109,7 +109,8 @@ a {
 .mid-section {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 100px;
+    margin-bottom: 100px;
 }
 
 .dog {
@@ -125,4 +126,27 @@ a {
 .subtext {
     font-size: 18px;
     font-weight: normal;
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    margin: 0;
+    text-align: center;
+    width: 900px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
 }
